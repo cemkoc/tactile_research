@@ -13,3 +13,9 @@ Project researchers (ordered by lastname):
 * Brian Su
 
 in Biomimetics Millisystems Lab working under Professor Ron Fearing and Carlos Casarez.
+
+## Instructions to run streaming experiment
+```
+git clone https://github.com/cemkoc/tactile_research.git
+cd tactile_research/roach_JG/python
+python experiment_multibot_with_streaming.py
