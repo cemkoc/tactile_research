@@ -6,6 +6,7 @@
 ## Project Details
 
 This is the central repository for dependencies regarding Tactile Velociroach project.
+
 Project researchers (ordered by lastname):
 * Can Koc
 * Cem Koc
