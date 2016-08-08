@@ -68,7 +68,7 @@ def main():
     R1.setGait(simpleAltTripod)
 
     # example , 0.1s lead in + 2s run + 0.1s lead out
-    EXPERIMENT_RUN_TIME_MS     = 8000 #ms #65000
+    EXPERIMENT_RUN_TIME_MS     = 5000 #ms #65000
     EXPERIMENT_LEADIN_TIME_MS  = 200  #ms
     EXPERIMENT_LEADOUT_TIME_MS = 200  #ms
 
@@ -82,7 +82,7 @@ def main():
     print "  ***************************"
     print "  *******    READY    *******"
     print "  ***************************"
-    raw_input("  Press ENTER to start run ...")
+    # raw_input("  Press ENTER to start run ...")
     print ""
     # send tactile commands here -- CemCanBrian July 24 2016
     R1.getSkinSize()
